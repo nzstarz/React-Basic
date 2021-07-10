@@ -1,9 +1,9 @@
 import React from 'react'
 
 //Practicing Functional Component   
-function Hello(){
+function Hello(props){
     return(
-        <h1> This is Nazmul Hasan from Functional Component</h1>
+        <h1> Hi I am {props.name} And I am  {props.age} Years Old</h1>// React Props for Functional component
     )
 }
 export default Hello;
