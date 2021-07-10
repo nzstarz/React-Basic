@@ -3,13 +3,13 @@ import React, {Component} from 'react'
 //Practicing Class Component
 class Welcome extends Component{
 
-    doThisFromClass(){
-        alert("Button is clicked from Class")
+    doThisFromClass(a){
+        alert(a)
     }
     render(){
         return <div>
               
-            <button onClick={this.doThisFromClass}>Which Class</button>
+            <button onClick={this.doThisFromClass.bind(this, "How to Handle Event")}>Which Class</button>
             <h1> Hi, I read in Class {this.props.name}</h1>
         </div>// React Props for class component
     }
