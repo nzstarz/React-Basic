@@ -4,6 +4,7 @@ import Hello from './mycomponents/Hello';
 import Welcome from './mycomponents/Welcome';
 import Arrow from './mycomponents/arrow';
 import Welcomesate from './mycomponents/Welcomestate';
+import ChangeStateValue from './mycomponents/ChangeStateValue';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
      <Arrow></Arrow>
 
      <Welcomesate></Welcomesate>
+
+     <ChangeStateValue></ChangeStateValue>
     
     </div>
   )
