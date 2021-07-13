@@ -5,6 +5,7 @@ import Welcome from './mycomponents/Welcome';
 import Arrow from './mycomponents/arrow';
 import Welcomesate from './mycomponents/Welcomestate';
 import ChangeStateValue from './mycomponents/ChangeStateValue';
+import ConditionalStatement from './mycomponents/ConditionalStatement';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
      <Welcomesate></Welcomesate>
 
      <ChangeStateValue></ChangeStateValue>
+
+     <ConditionalStatement></ConditionalStatement>
     
     </div>
   )
