@@ -7,6 +7,7 @@ import Welcomesate from './mycomponents/Welcomestate';
 import ChangeStateValue from './mycomponents/ChangeStateValue';
 import ConditionalStatement from './mycomponents/ConditionalStatement';
 import ConditionVarElements from './mycomponents/ConditionVarElements';
+import Refresh from './mycomponents/Refresh';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
      <ConditionalStatement></ConditionalStatement>
      <br></br>
      <ConditionVarElements></ConditionVarElements>
+     <br></br>
+     <Refresh></Refresh>
     
     </div>
   )
