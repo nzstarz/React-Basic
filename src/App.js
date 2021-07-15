@@ -8,6 +8,7 @@ import ChangeStateValue from './mycomponents/ChangeStateValue';
 import ConditionalStatement from './mycomponents/ConditionalStatement';
 import ConditionVarElements from './mycomponents/ConditionVarElements';
 import Refresh from './mycomponents/Refresh';
+import ReactDomPractice from './mycomponents/ReactDomPractice';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
      <ConditionVarElements></ConditionVarElements>
      <br></br>
      <Refresh></Refresh>
+     <br></br>
+     <ReactDomPractice></ReactDomPractice>
     
     </div>
   )
