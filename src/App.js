@@ -10,6 +10,7 @@ import ConditionVarElements from './mycomponents/ConditionVarElements';
 import Refresh from './mycomponents/Refresh';
 import ReactDomPractice from './mycomponents/ReactDomPractice';
 import FindDomNode from './mycomponents/FindDomNode';
+import Form from './mycomponents/Form';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
      <ReactDomPractice></ReactDomPractice>
      <br></br>
      <FindDomNode></FindDomNode>
+     <br></br>
+     <Form></Form>
     
     </div>
   )
