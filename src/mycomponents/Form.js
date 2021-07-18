@@ -5,15 +5,18 @@ class Form extends Component {
     constructor() {
         super();
        this.state={
-           name: " "
+        username: " "
        } 
         
     }
     
 
     onChangeHandler=(event)=>{
-       var newName = event.target.value;
-       this.setState({name:newName})
+    //   var newName = event.target.value;
+    // this.setState({name:newName})
+       var myname = event.target.name;
+       var myvalue = event.target.value;
+       this.setState({[myname]:myvalue})
 
     }
 
@@ -24,8 +27,8 @@ class Form extends Component {
             <div>
                 <form>
                     <p>My First Form</p>
-                    <p>{this.state.name}</p>
-                    <input onChange={this.onChangeHandler} type="text" placeholder="Your Name"></input><br></br>
+                    <p>{this.state.username}</p>
+                    <input name = "username" onChange={this.onChangeHandler} type="text" placeholder="Your Name"></input><br></br>
                     <input type="submit" value="Submit Now"></input>
                 </form>
             </div>
