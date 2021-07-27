@@ -11,6 +11,7 @@ import Refresh from './mycomponents/Refresh';
 import ReactDomPractice from './mycomponents/ReactDomPractice';
 import FindDomNode from './mycomponents/FindDomNode';
 import Form from './mycomponents/Form';
+import Signup from './mycomponents/Signup';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
      <FindDomNode></FindDomNode>
      <br></br>
      <Form></Form>
+     <br></br>
+     <Signup></Signup>
     
     </div>
   )
