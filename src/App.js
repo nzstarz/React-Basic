@@ -12,6 +12,7 @@ import ReactDomPractice from './mycomponents/ReactDomPractice';
 import FindDomNode from './mycomponents/FindDomNode';
 import Form from './mycomponents/Form';
 import Signup from './mycomponents/Signup';
+import Text from './mycomponents/Text';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
      <Form></Form>
      <br></br>
      <Signup></Signup>
+     <br></br>
+     <Text></Text>
+     <br></br>
     
     </div>
   )
