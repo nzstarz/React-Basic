@@ -13,6 +13,8 @@ import FindDomNode from './mycomponents/FindDomNode';
 import Form from './mycomponents/Form';
 import Signup from './mycomponents/Signup';
 import Text from './mycomponents/Text';
+import Select from './mycomponents/Select';
+import List from './mycomponents/List';
 
 function App() {
   return (
@@ -43,6 +45,10 @@ function App() {
      <br></br>
      <Text></Text>
      <br></br>
+     <Select></Select>
+     <br></br>
+     <List></List>
+
     
     </div>
   )
