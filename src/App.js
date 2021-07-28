@@ -15,6 +15,7 @@ import Signup from './mycomponents/Signup';
 import Text from './mycomponents/Text';
 import Select from './mycomponents/Select';
 import List from './mycomponents/List';
+import Jsonlist from './mycomponents/Jsonlist';
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
      <Select></Select>
      <br></br>
      <List></List>
+     <br></br>
+     <Jsonlist></Jsonlist>
 
     
     </div>
