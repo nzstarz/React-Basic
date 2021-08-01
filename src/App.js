@@ -16,7 +16,7 @@ import Text from './mycomponents/Text';
 import Select from './mycomponents/Select';
 import List from './mycomponents/List';
 import Jsonlist from './mycomponents/Jsonlist';
-
+import CountryList from './mycomponents/CountryList';
 
 function App() {
   return (
@@ -52,6 +52,8 @@ function App() {
      <List></List>
      <br></br>
      <Jsonlist></Jsonlist>
+     <br></br>
+     <CountryList></CountryList>
 
     
     </div>
