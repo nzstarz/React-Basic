@@ -1,0 +1,10 @@
+//CSS preprocessor or SASS
+$nameColor:red;
+$backColor:green;
+$mypadding:30px;
+
+.TextStyle{
+    padding: $mypadding;
+    background-color: $backColor;
+    color: $nameColor;
+}
