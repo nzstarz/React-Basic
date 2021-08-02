@@ -17,6 +17,7 @@ import Select from './mycomponents/Select';
 import List from './mycomponents/List';
 import Jsonlist from './mycomponents/Jsonlist';
 import CountryList from './mycomponents/CountryList';
+import Mytable from './mycomponents/Mytable';
 
 function App() {
   return (
@@ -54,6 +55,9 @@ function App() {
      <Jsonlist></Jsonlist>
      <br></br>
      <CountryList></CountryList>
+     <br></br>
+     <Mytable></Mytable>
+
 
     
     </div>
